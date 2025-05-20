@@ -359,8 +359,8 @@ iframe {
     color: #fbd117;
 }
 
-@media (min-width: 601px) and (max-width: 767px) {
-    .hero-img img {
+@media (max-width: 760px) {
+      .hero-img img {
     width: 300px;
     height: 400px;
     border-radius: 20px;
