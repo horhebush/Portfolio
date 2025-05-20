@@ -31,13 +31,24 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
-.navbar a, .navbar button {
+.navbar a {
     color: #32418C;
     text-decoration: none;
     font-weight: 1000;
     transition: color 0.3s;
+}
+
+.navbar button {
+    background: #32418C;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fbd117;
+    font-weight: 400;
 }
 
 .navbar a:hover {
