@@ -359,7 +359,7 @@ iframe {
     color: #fbd117;
 }
 
-@media (max-width: 760px) {
+@media (min-width: 601px) and (max-width: 767px) {
     .hero-img img {
     width: 300px;
     height: 400px;
@@ -368,7 +368,7 @@ iframe {
     border: 5px solid #FBD117;
 }
 
-.hero-text a .btn {
-    text-align: center;
+.hero {
+        padding: 60px 80px;
 }
 }
