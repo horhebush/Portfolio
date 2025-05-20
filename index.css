@@ -367,4 +367,20 @@ iframe {
     object-fit: cover;
     border: 5px solid #FBD117;
 }
+
+.hero {
+    padding: 60px 80px;
+}
+
+.project-image img {
+    height: 400px;
+}
+
+iframe {
+    height: 400px;
+}
+
+.video-container {
+    height: 400px;
+}
 }
